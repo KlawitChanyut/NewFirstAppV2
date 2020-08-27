@@ -22,8 +22,8 @@
 
         <ImageView
             android:id="@+id/cherfilm"
-            android:layout_width="247dp"
-            android:layout_height="418dp"
+            android:layout_width="251dp"
+            android:layout_height="473dp"
             android:layout_gravity="center|top"
             app:srcCompat="@drawable/cherfilm" />
 
