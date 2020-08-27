@@ -53,9 +53,10 @@
 
             <TextView
                 android:id="@+id/textview"
-                android:layout_width="350dp"
-                android:layout_height="579dp"
+                android:layout_width="334dp"
+                android:layout_height="564dp"
                 android:layout_gravity="center"
+                android:layout_marginTop="15dp"
                 android:text="@{contactViewModel.contactString}" />
 
         </LinearLayout>
