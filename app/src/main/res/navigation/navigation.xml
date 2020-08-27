@@ -7,8 +7,8 @@
     <fragment
         android:id="@+id/aboutMeFragment"
         android:name="klawit.example.newfirstapp.AboutMeFragment"
-        android:label="fragment_about_me"
-        tools:layout="@layout/fragment_about_me" >
+        android:label="About Me"
+        tools:layout="@layout/fragment_about_me">
         <action
             android:id="@+id/action_aboutMeFragment_to_contactFragment"
             app:destination="@id/contactFragment" />
@@ -16,8 +16,8 @@
     <fragment
         android:id="@+id/contactFragment"
         android:name="klawit.example.newfirstapp.ContactFragment"
-        android:label="fragment_contact"
-        tools:layout="@layout/fragment_contact" >
+        android:label="My Contact"
+        tools:layout="@layout/fragment_contact">
         <action
             android:id="@+id/action_contactFragment_to_aboutMeFragment"
             app:destination="@id/aboutMeFragment" />
