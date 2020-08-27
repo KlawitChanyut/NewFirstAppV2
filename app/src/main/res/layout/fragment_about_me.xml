@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
@@ -12,10 +13,53 @@
         tools:context=".AboutmeFragment">
 
         <!-- TODO: Update blank fragment layout -->
+
         <TextView
+            android:id="@+id/backgroud"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Hello i'am About me fragment" />
+            android:background="#F4D4DF" />
+
+        <ImageView
+            android:id="@+id/cherfilm"
+            android:layout_width="247dp"
+            android:layout_height="418dp"
+            android:layout_gravity="center|top"
+            app:srcCompat="@drawable/cherfilm" />
+
+        <TextView
+            android:id="@+id/profile_text"
+            android:text="@string/profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/ProfileStyle" />
+
+        <TextView
+            android:id="@+id/nick_name"
+            android:text="@string/my_name"
+            style="@style/NicknameStyle" />
+
+        <TextView
+            android:id="@+id/age_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="450dp"
+            android:fontFamily="serif-monospace"
+            android:text="@string/age"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/birthday_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/birthday"
+            android:textSize="24sp"
+            android:fontFamily="serif-monospace"
+            android:layout_marginTop="500dp" />
 
     </FrameLayout>
 </layout>

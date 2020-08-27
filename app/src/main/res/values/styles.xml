@@ -7,4 +7,24 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ProfileStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center|top</item>
+        <item name="android:layout_marginTop">48dp</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="NicknameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">400dp</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
 </resources>
